@@ -41,7 +41,7 @@ def decrypt_long_text(encrypted_data, key):
         return f"Decryption failed: {e}"
 
 # Streamlit App
-st.title("Unlimited Length Text Encryption")
+st.title("AES with CBC ( include key and IV )")
 st.write("This app uses AES encryption to secure long text. Save the generated key for decryption.")
 
 # Key Generation
